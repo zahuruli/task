@@ -6,7 +6,7 @@ import connectDB from "./config/db.js";
 import cors from "cors";
 import path from "path";
 import { fileURLToPath } from "url";
-import sectorRouter from "./routes/sectorroute.js";
+import sectorRouter from "./routes/sectorRoute.js";
 import userRouter from "./routes/userRoute.js";
 
 //esmodulefix:
